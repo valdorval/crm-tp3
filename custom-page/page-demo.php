@@ -5,7 +5,10 @@
  *
  */
 get_header();
+?>
 
+Démo
 
 <?php
 get_footer();
+?>

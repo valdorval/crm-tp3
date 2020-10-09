@@ -7,9 +7,7 @@
 get_header();
 ?>
 
-
-
-
+Avantage
 
 <?php
 get_footer();

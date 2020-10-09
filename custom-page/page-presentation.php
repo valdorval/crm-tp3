@@ -7,4 +7,10 @@
 
 get_header();
 
+?>
+
+Présentation
+
+<?php
 get_footer();
+?>
