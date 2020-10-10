@@ -1,8 +1,7 @@
 <?php
 get_header();
-?>
+
+get_template_part('template-parts/accueil');
 
 
-<?php
 get_footer();
-?>
