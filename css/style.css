@@ -1,0 +1,95 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.5); }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: "Cabin", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400; }
+
+h1, h2, h3,
+h4, h5, h6 {
+  color: #917A5E;
+  text-transform: uppercase; }
+
+a {
+  color: inherit; }
+
+p {
+  text-align: justify; }
+
+.container {
+  width: 60%;
+  margin: 0 auto; }
+  @media (max-width: 900px) {
+    .container {
+      width: 100%; } }
+
+.container-normal {
+  width: 75%;
+  margin: 0 auto; }
+  @media (max-width: 1200px) {
+    .container-normal {
+      width: 100%; } }
+
+.container-big {
+  width: 90%;
+  margin: 0 auto; }
+  @media (max-width: 900px) {
+    .container-big {
+      width: 100%; } }
+
+.flex {
+  display: flex; }
+
+.center {
+  text-align: center; }
+
+.align-right {
+  text-align: right; }
+
+.gradient {
+  background-image: linear-gradient(to bottom, #fff 0%, #fff 70%, #FEF5DC 100%); }
+
+.u-margin-top-big {
+  margin-top: 6rem; }
+
+.u-margin-top-normal {
+  margin-top: 2.4rem; }
+
+.u-margin-top-small {
+  margin-top: 1.8rem; }
+
+.u-margin-top-xsmall {
+  margin-top: 1.2rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 6rem; }
+
+.u-margin-bottom-normal {
+  margin-bottom: 2.4rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.8rem; }
+
+.u-margin-bottom-xsmall {
+  margin-bottom: 1.2rem; }
+
+.u-padding-bottom-normal {
+  padding-bottom: 2.4rem; }
+
+.u-padding-bottom-big {
+  padding-bottom: 6rem; }

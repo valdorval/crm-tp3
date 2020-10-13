@@ -32,3 +32,9 @@ function vluxe_menu_class($classes)
     $classes[] = 'nav__menu--item';
     return $classes;
 }
+
+add_action('wp_enqueue_scripts', 'enqueue_styles_crm');
+function enqueue_styles_crm()
+{
+    wp_enqueue_style('style-crm', get_template_directory_uri() . '/style.css');
+}
