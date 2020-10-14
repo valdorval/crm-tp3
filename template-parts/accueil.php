@@ -1,20 +1,41 @@
-<main>
-     <h1>Suivez vos clients du bout des doigts</h1>
-     <section class="acceuil">
-          <div class="flex">
-               <div>
-                    <img src="" alt="icone1">
-                    <p>Grâce à notre nouveau CRM Wordpress, vous pourrez facilement faire le suivi de vos intéractions avec vos clients</p>
-               </div>
-               <div>
-                    <img src="" alt="icone1">
-                    <p></p>
-               </div>
-               <div>
-                    <img src="" alt="icone1">
-                    <p></p>
-               </div>
-          </div>
+<main id="main">
+<div class="container" class="flex grid">
+    <div class="cardcontainer">
+    <div class="card">
+        <div class="card--imgBx">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="title1">
+            <div class="card--contentBx">
+              <div class="card--contentBx--title">HERE</div>
 
-     </section>
-</main>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card--imgBx">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/reviewer.png" alt="title1">
+            <div class="card--contentBx">
+                <div class="card--contentBx--title">HERE</div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card--imgBx">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/info.png" alt="title1">
+            <div class="card--contentBx">
+                <div class="card--contentBx--title">HERE</div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+        </div>
+    </div>
+   </div>
+</div>
