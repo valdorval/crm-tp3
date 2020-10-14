@@ -1,5 +1,5 @@
 <main id="main">
-<div class="container" class="flex grid">
+<section class="container" class="flex grid">
     <div class="cardcontainer">
     <div class="card">
         <div class="card--imgBx">
@@ -38,4 +38,4 @@
         </div>
     </div>
    </div>
-</div>
+</section>
