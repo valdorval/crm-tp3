@@ -29,12 +29,12 @@ add_filter('nav_menu_css_class', 'vluxe_menu_class', 10, 4);
 function vluxe_menu_class($classes)
 {
     unset($classes);
-    $classes[] = 'nav__menu--item';
+    $classes[] = 'nav__menu--item center';
     return $classes;
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_styles_crm');
 function enqueue_styles_crm()
 {
-    wp_enqueue_style('style-crm', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('style-style', get_template_directory_uri() . '/css/style.css');
 }
