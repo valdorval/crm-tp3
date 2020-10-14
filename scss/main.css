@@ -258,4 +258,10 @@ input {
       font-size: 1.3em;
       letter-spacing: 2px; }
 
+.logo {
+  width: auto;
+  height: auto;
+  text-align: center;
+  color: chocolate; }
+
 /*# sourceMappingURL=main.css.map */

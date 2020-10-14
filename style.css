@@ -258,4 +258,15 @@ input {
       font-size: 1.3em;
       letter-spacing: 2px; }
 
+.logo {
+  padding-right: 70px;
+  width: 100px;
+  height: 30px; }
+  .logo--titre {
+    color: #4AABE8;
+    text-align: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 800;
+    font-size: 4em; }
+
 /*# sourceMappingURL=style.css.map */

@@ -13,8 +13,8 @@
 
      <header id="header" class="flex grid">
           <div class="container">
-               <div>
-                    <h1>This is an assignement</h1>
+               <div class="logo">
+                    <div class="logo--titre">cosTOMers</div>
                </div>
 
           </div>
