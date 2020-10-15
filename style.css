@@ -247,7 +247,7 @@ input {
   text-transform: uppercase; }
 
 .card {
-  width: 220px;
+  width: 280px;
   margin: 20px;
   padding: 40px 30px;
   background: #E3E6EC;
@@ -264,7 +264,6 @@ input {
   .card--contentBx {
     position: relative;
     margin-top: 20px;
-    text-align: center;
     color: #00609D;
     font-weight: 400;
     font-size: 1.3em; }
@@ -272,7 +271,8 @@ input {
       margin-bottom: 20px;
       font-weight: 700;
       font-size: 1.3em;
-      letter-spacing: 2px; }
+      letter-spacing: 2px;
+      text-align: center; }
 
 .logo {
   width: 6em;

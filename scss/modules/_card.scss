@@ -1,5 +1,5 @@
 .card{
-	width: 220px;
+	width: 280px;
 	margin: 20px;
 	padding: 40px 30px;
 	background: $body;
@@ -7,13 +7,13 @@
 	box-shadow: -6px -6px 20px rgba(253,253,253,1),
 	             6px 6px 20px rgba(0,0,0,0.1);
 
-				 &:hover{
+	&:hover{
 		box-shadow: inset -12px -12px 12px rgba(253,253,253,1),
                     inset 12px 12px rgba(0,0,0,0.1);
                     
                 }
 
-        &--imgBx{
+    &--imgBx{
 		position: relative;
         text-align: center;
         img {
@@ -24,7 +24,6 @@
         &--contentBx{
            position: relative;
            margin-top: 20px;
-           text-align: center;
            color:$text;
            font-weight: 400;
            font-size: 1.3em;
@@ -34,6 +33,8 @@
             font-weight: 700;
             font-size: 1.3em;
             letter-spacing: 2px;
+           text-align: center;
+
            }
 
         }
