@@ -1,27 +1,26 @@
+#nav-menu{
+        background-color:$header;
+        padding-left:20%;
+        display:flex;
+        flex-flow: row wrap;
+        align-content:center;
+        justify-content:flex-start;
+        font-family: $quickSand;
+        font-size: $links-size;
+        text-align: center;
+        text-transform: uppercase;}
 // .nav{
-//     background-color:$flat;
-//     padding-left:20%;
-//     display:flex;
-//     flex-flow: row wrap;
-//     align-content:center;
-//     justify-content:flex-start;
-//     padding-bottom: 100px;
-//     font-family: $roboto-slab;
-//     font-size: $links-size;
-//     text-align: center;
-//     text-transform: uppercase;
-
-//     &--item{
-//         color:white;
+//     li{
+//         color:$black;
 //         display:block;
 //         padding:25px;
-//         background-color:$drab;
-//         box-shadow: 2px 2px $dark-gray;
+//         background-color:$menuItemn;
+//         // box-shadow: 2px 2px $black;
 //         text-decoration: none;
 //         &:hover{
-//             background-color:$white;
-//             color:$links;
-//             box-shadow: 2px 2px lighten($drab, 50%);
+//             // background-color:$white;
+//             // color:$links;
+//             // box-shadow: 2px 2px lighten($drab, 50%);
 //         }
 //         &.is-active{
 //             display:block;
@@ -34,18 +33,18 @@
 
 // }
 
-// @media (max-width: 999px) {
-//     .nav{
-//         display:flex;
-//         flex-flow: column wrap;
-//         align-content: center;
-//         background-color:$gray;
-//         &--item{
-//             font-size: $links-size;
-//             text-align: center;
-//             text-transform: uppercase;
-//             font-weight: bold;
-//             padding:10px 0;
-//         }
-//     }
-// }
+// // @media (max-width: 999px) {
+// //     .nav_menu{
+// //         display:flex;
+// //         flex-flow: column wrap;
+// //         align-content: center;
+// //         background-color:$gray;
+// //         &--item{
+// //             font-size: $links-size;
+// //             text-align: center;
+// //             text-transform: uppercase;
+// //             font-weight: bold;
+// //             padding:10px 0;
+// //         }
+// //     }
+// // }

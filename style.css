@@ -141,7 +141,7 @@ a {
 
 button {
   padding: 10px;
-  background-color: #b9b9b9;
+  background-color: white;
   border: none; }
   button:hover {
     font-weight: bold; }
@@ -154,12 +154,13 @@ body {
 
 .cardcontainer {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center; }
 
 input {
   background-color: silver;
-  border: 1px solid #5c1c1c;
+  border: 1px solid #7791f7;
   border-radius: 5px;
   padding: 5px;
   color: white; }
@@ -184,7 +185,7 @@ input {
 #header {
   background-color: #EFF2FE; }
   #header .container {
-    height: 200px;
+    height: 60px;
     width: 1020px;
     margin: auto;
     display: flex;
@@ -198,13 +199,16 @@ input {
 #footer {
   background-color: #EFF2FE; }
   #footer .container {
-    height: 200px;
-    width: 1020px;
-    margin: auto;
-    display: flex;
-    flex-direction: row no-wrap;
-    justify-content: space-between;
-    padding: 10vh; }
+    width: 20px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px; }
+    #footer .container--titre {
+      color: #000000;
+      text-align: center;
+      font-family: "Red Hat Text", sans-serif;
+      font-size: 1.1em; }
 
 .col {
   flex: 1 1 100%;
@@ -230,6 +234,18 @@ input {
     .col .col {
       width: 100%;
       margin: 0 0 10px 0; } }
+#nav-menu {
+  background-color: #EFF2FE;
+  padding-left: 20%;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: flex-start;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  text-align: center;
+  text-transform: uppercase; }
+
 .card {
   width: 220px;
   margin: 20px;
@@ -259,9 +275,9 @@ input {
       letter-spacing: 2px; }
 
 .logo {
-  padding-right: 70px;
-  width: 100px;
-  height: 30px; }
+  width: 6em;
+  margin-left: auto;
+  margin-right: auto; }
   .logo--titre {
     color: #4AABE8;
     text-align: center;

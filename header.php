@@ -10,22 +10,25 @@
 </head>
 
 <body>
-
-     <header id="header" class="flex grid">
+<header id="header" class="flex grid">
           <div class="container">
                <div class="logo">
                     <div class="logo--titre">cosTOMers</div>
                </div>
-
           </div>
-
-          <nav class="nav" id="nav-menu">
-               <?php wp_nav_menu(
-                    array(
-                         'theme_location' => 'main_nav',
-                         'container' => 'ul',
-                         'menu_class' => 'nav__menu container-big flex center'
-                    )
-               ); ?>
-          </nav>
+          <nav class="nav">
+            
+            <a class="nav--item is-active" href="#">Menu item</a>
+            <a class="nav--item" href="#">Menu item</a>
+   
+        </nav>
+     <nav class="nav" id="nav-menu">
+          <?php wp_nav_menu(
+               array(
+                    'theme_location' => 'main_nav',
+                    'container' => 'ul',
+                    'menu_class' => 'nav__menu container-big flex center'
+               )
+          ); ?>
+     </nav>
      </header>
