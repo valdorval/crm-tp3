@@ -127,7 +127,7 @@ html {
   font-size: 75%; }
 
 .h1 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Red Hat Text", sans-serif;
   font-size: 6rem; }
 
 .h2 {
@@ -291,7 +291,8 @@ a {
     margin-top: 20px;
     color: #00609D;
     font-weight: 400;
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    text-align: left; }
     .card--contentBx--title {
       margin-bottom: 20px;
       font-weight: 700;
