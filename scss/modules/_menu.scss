@@ -1,4 +1,4 @@
-#nav-menu{
+#menu-nav-menu{
         background-color:$header;
         padding-left:20%;
         display:flex;
@@ -9,6 +9,21 @@
         font-size: $links-size;
         text-align: center;
         text-transform: uppercase;}
+
+ul{
+
+    flex-direction: row;  
+    padding: 0 20px;   
+ }  
+ li{
+        margin: auto;
+        padding: 20px;
+       
+ }     
+a{
+        color:#000;
+}
+// #     menu-nav-menu
 // .nav{
 //     li{
 //         color:$black;

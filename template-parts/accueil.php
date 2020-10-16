@@ -1,5 +1,5 @@
 <main id="main">
-<section class="container">
+<section class="main-bloc">
     <div class="cardcontainer">
     <div class="card">
         <div class="card--imgBx">

@@ -1,15 +1,15 @@
-.card{
+.avantagecard{
 	margin: 20px;
 	padding: 40px 30px;
 	background: $body;
     border-radius: 40px;
-    flex-basis: 22%;
-	box-shadow: -6px -6px 20px rgba(253,253,253,1),
-	             6px 6px 20px rgba(0,0,0,0.1);
-
-	&:hover{
-		box-shadow: inset -12px -12px 12px rgba(253,253,253,1),
+    flex-basis: 35%;
+    box-shadow: inset -12px -12px 12px rgba(253,253,253,1),
                     inset 12px 12px rgba(0,0,0,0.1);
+	
+	&:hover{
+        box-shadow: -6px -6px 20px rgba(253,253,253,1),
+	             6px 6px 20px rgba(0,0,0,0.1);
                     
                 }
 
@@ -17,8 +17,8 @@
 		position: relative;
         text-align: center;
         img {
-           max-width:80px;
-            height: 80px;
+           max-width:180px;
+            height: 180px;
         }
     }
         &--contentBx{

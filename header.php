@@ -16,13 +16,8 @@
                     <div class="logo--titre">cosTOMers</div>
                </div>
           </div>
-          <nav class="nav">
-            
-            <a class="nav--item is-active" href="#">Menu item</a>
-            <a class="nav--item" href="#">Menu item</a>
-   
-        </nav>
-     <nav class="nav" id="nav-menu">
+         
+     <nav class="nav" id="menu-nav-menu">
           <?php wp_nav_menu(
                array(
                     'theme_location' => 'main_nav',
@@ -31,4 +26,7 @@
                )
           ); ?>
      </nav>
+     <!-- <div class="bande">
+
+     </div> -->
      </header>

@@ -2,17 +2,34 @@
 #header{
     background-color:$header;
     .container{
-        height:60px;
-        width: 1020px;
-        margin: auto;
-        display: flex;
-        flex-direction: row no-wrap;
-        justify-content: space-between;
-        padding: 8vh;
+        height:160px;
+        width: 90%;
+        margin-top: auto;
+        padding-top: 30px;
+        .logo{
+        
+           
+      
+            &--titre{
+            color: $blue;
+            text-align:center;
+            font-family: $redHatText;
+            font-weight:800;
+               font-size: 4em;
+             }
+    }
         @media (max-width:999px)
         {
             width:unset;
         }
+    }
+}
+#main{   
+    .main-bloc{
+        width: 90%;
+        max-width: 1020px;
+        margin: 0 auto;
+        
     }
 }
 #footer{
@@ -28,7 +45,7 @@
         color: $black;
         text-align:center;
         font-family: $redHatText;
-        font-size: 1.1em;
+        font-size: 0.8em;
          }
     }
 }

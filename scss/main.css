@@ -191,16 +191,13 @@ input {
 #header {
   background-color: #EFF2FE; }
   #header .container {
-    height: 160px;
-    width: 90%;
-    margin-top: auto;
-    padding-top: 30px; }
-    #header .container .logo--titre {
-      color: #4AABE8;
-      text-align: center;
-      font-family: "Red Hat Text", sans-serif;
-      font-weight: 800;
-      font-size: 4em; }
+    height: 60px;
+    width: 1020px;
+    margin: auto;
+    display: flex;
+    flex-direction: row no-wrap;
+    justify-content: space-between;
+    padding: 8vh; }
     @media (max-width: 999px) {
       #header .container {
         width: unset; } }
@@ -222,7 +219,7 @@ input {
       color: #000000;
       text-align: center;
       font-family: "Red Hat Text", sans-serif;
-      font-size: 0.8em; }
+      font-size: 1.1em; }
 
 .col {
   flex: 1 1 100%;
@@ -248,7 +245,7 @@ input {
     .col .col {
       width: 100%;
       margin: 0 0 10px 0; } }
-#menu-nav-menu {
+#nav-menu {
   background-color: #EFF2FE;
   padding-left: 20%;
   display: flex;
@@ -259,17 +256,6 @@ input {
   font-size: 1.1rem;
   text-align: center;
   text-transform: uppercase; }
-
-ul {
-  flex-direction: row;
-  padding: 0 20px; }
-
-li {
-  margin: auto;
-  padding: 20px; }
-
-a {
-  color: #000; }
 
 .card {
   margin: 20px;
@@ -338,60 +324,4 @@ a {
       letter-spacing: 2px;
       text-align: center; }
 
-.groupcard {
-  margin: 20px;
-  padding: 40px 30px;
-  background: #E3E6EC;
-  border-radius: 40px;
-  flex-basis: 82%;
-  box-shadow: -6px -6px 20px #fdfdfd, 6px 6px 20px rgba(0, 0, 0, 0.1); }
-  .groupcard:hover {
-    box-shadow: inset -12px -12px 12px #fdfdfd, inset 12px 12px rgba(0, 0, 0, 0.1); }
-  .groupcard--imgBx {
-    position: relative;
-    text-align: center; }
-    .groupcard--imgBx img {
-      max-width: 80px;
-      height: 80px; }
-  .groupcard--contentBx {
-    position: relative;
-    margin-top: 20px;
-    color: #00609D;
-    font-weight: 400;
-    font-size: 1.3em; }
-    .groupcard--contentBx--title {
-      margin-bottom: 20px;
-      font-weight: 700;
-      font-size: 1.3em;
-      letter-spacing: 2px;
-      text-align: center; }
-
-.avantagecard {
-  margin: 20px;
-  padding: 40px 30px;
-  background: #E3E6EC;
-  border-radius: 40px;
-  flex-basis: 35%;
-  box-shadow: inset -12px -12px 12px #fdfdfd, inset 12px 12px rgba(0, 0, 0, 0.1); }
-  .avantagecard:hover {
-    box-shadow: -6px -6px 20px #fdfdfd, 6px 6px 20px rgba(0, 0, 0, 0.1); }
-  .avantagecard--imgBx {
-    position: relative;
-    text-align: center; }
-    .avantagecard--imgBx img {
-      max-width: 180px;
-      height: 180px; }
-  .avantagecard--contentBx {
-    position: relative;
-    margin-top: 20px;
-    color: #00609D;
-    font-weight: 400;
-    font-size: 1.3em; }
-    .avantagecard--contentBx--title {
-      margin-bottom: 20px;
-      font-weight: 700;
-      font-size: 1.3em;
-      letter-spacing: 2px;
-      text-align: center; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=main.css.map */
