@@ -262,9 +262,8 @@ ul {
 li {
   margin: auto;
   padding: 10px; }
-
-a {
-  color: #000; }
+  li a {
+    color: #000; }
 
 .card {
   margin: 20px;
@@ -295,6 +294,9 @@ a {
       letter-spacing: 2px;
       text-align: center; }
 
+@media (max-width: 999px) {
+  .card {
+    flex-basis: 72%; } }
 .logo {
   width: 6em;
   margin-left: auto;

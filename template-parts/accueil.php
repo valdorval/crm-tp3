@@ -51,7 +51,7 @@
                 <div class="card--imgBx">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/simple.png" alt="title1">
                     <div class="card--contentBx">
-                        <div class="card--contentBx--title">HERE</div>
+                        <div class="card--contentBx--title">Archiver vos relations clients </div>
 
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -63,7 +63,7 @@
                 <div class="card--imgBx">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/info.png" alt="title1">
                     <div class="card--contentBx">
-                        <div class="card--contentBx--title">HERE</div>
+                        <div class="card--contentBx--title">Gérez vos prospects simplement</div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
