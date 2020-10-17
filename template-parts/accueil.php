@@ -1,6 +1,7 @@
 <main id="main">
     <section class="main-bloc">
         <div class="cardcontainer">
+            
             <div class="card">
                 <div class="card--imgBx">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" alt="title1">
@@ -28,8 +29,8 @@
                     <div class="card--contentBx">
                         <div class="card--contentBx--title">Des relations catégorisées </div>
 
-                        <p>Organiser vos clients selon le stade auquel ils en sont dans le processus va optimiser votre cycle de vente.<br>
-                        Réussir à comprendre  l’importance de frapper à la bonne étape du processus décisionnel de l’acheteur et de le rendre aussi simplifié que possible pour le client.</p>
+                        <p>Organiser vos clients selon le stade auquel ils en sont dans le processus va optimiser votre cycle de vente.<br><br>
+                        Réussir à comprendre  l’importance de frapper à la bonne étape du processus décisionnel de  et de le rendre aussi simplifié que possible.</p>
                     </div>
 
                 </div>

@@ -130,9 +130,10 @@ html {
   font-family: "Red Hat Text", sans-serif;
   font-size: 6rem; }
 
-.h2 {
+h2 {
   font-family: "Quicksand", sans-serif;
-  font-size: 1.5rem; }
+  font-weight: 200;
+  font-size: 2rem; }
 
 a {
   color: #fff; }
@@ -195,12 +196,6 @@ input {
     width: 90%;
     margin-top: auto;
     padding-top: 30px; }
-    #header .container .logo--titre {
-      color: #4AABE8;
-      text-align: center;
-      font-family: "Red Hat Text", sans-serif;
-      font-weight: 800;
-      font-size: 4em; }
     @media (max-width: 999px) {
       #header .container {
         width: unset; } }
@@ -262,11 +257,11 @@ input {
 
 ul {
   flex-direction: row;
-  padding: 0 20px; }
+  padding: 0 40px; }
 
 li {
   margin: auto;
-  padding: 20px; }
+  padding: 10px; }
 
 a {
   color: #000; }
@@ -354,6 +349,13 @@ a {
     .groupcard--imgBx img {
       max-width: 80px;
       height: 80px; }
+  .groupcard--othercontentBx {
+    position: relative;
+    margin-top: 20px;
+    color: #00609D;
+    font-weight: 400;
+    font-size: 1.3em;
+    text-align: left; }
   .groupcard--contentBx {
     position: relative;
     margin-top: 20px;

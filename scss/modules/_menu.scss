@@ -13,53 +13,13 @@
 ul{
 
     flex-direction: row;  
-    padding: 0 20px;   
+    padding: 0 40px;   
  }  
  li{
         margin: auto;
-        padding: 20px;
+        padding: 10px;
        
  }     
 a{
         color:#000;
 }
-// #     menu-nav-menu
-// .nav{
-//     li{
-//         color:$black;
-//         display:block;
-//         padding:25px;
-//         background-color:$menuItemn;
-//         // box-shadow: 2px 2px $black;
-//         text-decoration: none;
-//         &:hover{
-//             // background-color:$white;
-//             // color:$links;
-//             // box-shadow: 2px 2px lighten($drab, 50%);
-//         }
-//         &.is-active{
-//             display:block;
-//             font-weight: bold;
-//             background-color:$links;
-//             border-bottom:2px solid $white;
-//         }
-    
-//     }
-
-// }
-
-// // @media (max-width: 999px) {
-// //     .nav_menu{
-// //         display:flex;
-// //         flex-flow: column wrap;
-// //         align-content: center;
-// //         background-color:$gray;
-// //         &--item{
-// //             font-size: $links-size;
-// //             text-align: center;
-// //             text-transform: uppercase;
-// //             font-weight: bold;
-// //             padding:10px 0;
-// //         }
-// //     }
-// // }

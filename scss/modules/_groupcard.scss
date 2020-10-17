@@ -21,6 +21,13 @@
             height: 80px;
         }
     }
+    &--othercontentBx{
+        position: relative;
+        margin-top: 20px;
+        color:$text;
+        font-weight: 400;
+        font-size: 1.3em;
+    text-align: left;}
         &--contentBx{
            position: relative;
            margin-top: 20px;
